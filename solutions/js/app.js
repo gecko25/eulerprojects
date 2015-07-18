@@ -23,11 +23,17 @@
 		}
 
 		this.answer = sum;
+		this.sourceCode = "feature coming soon";
 }); // closes app.controller 
 
 
 	/******* PROBLEM ONE *********/
 	app.controller("ProblemTwoController", function(){
+		
+		this.toggle = function(){
+			return 1;
+		}
+
 		var max = 4000000;  //limit for calcuating sum
 		var previous_value = 1;  //1st in fib sequence  (1,2,3,5,8..)
 		var current_value = 2;   //2nd value in fib
@@ -52,6 +58,7 @@
 		}while (current_value<max);
 
 		this.answer = sumOfEvenValues;  //controllerobject.answer
+		this.sourceCode = "feature coming soon";
 
 
 }); // closes app.controller 	

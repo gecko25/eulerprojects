@@ -21,6 +21,11 @@
 		<h1> Find the sum of all the multiples of 3 or 5 below 1000. </h1>
 		<div ng-controller="ProblemOneController as problemOneCtrl">
 			{{problemOneCtrl.answer}}
+
+
+			<button ng-click ="display=true"> Show code </button>
+
+			<kbd ng-show = "display==true"> {{problemOneCtrl.sourceCode}} </kbd>
 		<div>
 
 		<a href="../index.html"> Back to index </a>

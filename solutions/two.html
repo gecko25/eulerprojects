@@ -26,6 +26,13 @@
 		
 		<div ng-controller="ProblemTwoController as problemTwoCtrl">
 			{{problemTwoCtrl.answer}}
+		
+			
+			<button ng-click ="display=true"> Show code </button>
+
+			<kbd ng-show = "display==true"> {{problemTwoCtrl.sourceCode}} </kbd>
+		
+
 		<div>
 
 		<a href="../index.html"> Back to index </a>
