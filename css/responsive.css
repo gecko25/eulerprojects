@@ -1,0 +1,38 @@
+
+/*Media query
+*If screen is larger than 480px, apply the styles
+*480px is ~the size of a landscape smart phone
+*
+*This style will be for tablets, large phones
+*/
+@media screen and (min-width: 480px){
+   
+/*****************************
+CONTACT PAGE
+******************************/
+	#column1{
+	   	width: 50%;
+	   	float: left;
+	}
+
+	#column2{
+	   	width: 40%;
+	   	float: right;
+	}
+
+	.profile-photo{
+	float: left;
+	}
+
+}
+
+/*Large tablets and normal desktops*/
+@media screen and (min-width: 660px){
+	
+	#gallery li{
+		width: 28.3333%;
+	}
+	#gallery li:nth-child(4n){
+		clear: left;
+	}
+}
