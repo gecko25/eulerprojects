@@ -18,6 +18,16 @@ body {
 	font-family: 'Noticia Text', serif;
 }
 
+button{
+	margin: 5px 0;
+	display: block;
+}
+
+kbd {
+	margin: 5px 0;
+	display: block;
+}
+
 /*****************************
 COLORS
 ******************************/
