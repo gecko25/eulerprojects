@@ -6,17 +6,16 @@ a{
 	color: #00ccff;
 }
 
-img{
-	max-width: 100%;
-}
-
 p{
 	margin: 0;
 	padding: 0;
 }
 
-body{
+body {
 	padding-left: 5px;
+	background-color: #fff;
+	color: #999;
+	font-family: 'Noticia Text', serif;
 }
 
 /*****************************
@@ -24,24 +23,15 @@ COLORS
 ******************************/
 h1,h2{
 	color: #3f2f66;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 b{
 	color: #616161;
 }
 
-body {
-	background-color: #fff;
-	color: #999;
-	font-family: 'Noticia Text', serif;
+body ul {
+	list-style: none;
 }
 
-
-/*Div for the photos*/
-#wrapper {
-	max-width: 1000px;
-	margin: auto;
-	padding: 5%;
-}
 
