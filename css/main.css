@@ -44,4 +44,12 @@ body ul {
 	list-style: none;
 }
 
+/************
+CODE FORMAT**
+************/
+.js-code{
+	max-width: 97%;
+	padding:10px;
+}
+
 

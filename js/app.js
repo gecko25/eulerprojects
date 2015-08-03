@@ -1,6 +1,6 @@
-
 (function(){
 	var app = angular.module('answergenerator', []);
+
 
 	/******* PROBLEM ONE *********/
 	app.controller("ProblemOneController", function(){
@@ -23,7 +23,7 @@
 		}
 
 		this.answer = sum;
-		this.sourceCode = "feature coming soon";
+		//this.sourceCode = "		//loop through all numbers 1-1000 <br> for (var i=1; i<1000; i++){			if (i%3===0){				sum+=i;				continue;			}else if (i%5===0){				sum+=i;				continue;			}else{				continue;			}		}";
 }); // closes app.controller 
 
 
@@ -55,9 +55,27 @@
 		}while (current_value<max);
 
 		this.answer = sumOfEvenValues;  //controllerobject.answer
-		this.sourceCode = "feature coming soon";
+		//this.sourceCode = "feature coming soon";
 
 
 }); // closes app.controller 	
 
-})();  //closes closure function
+})();  //closes iffe function
+
+
+for (var i=1; i<6; i++){
+	var bar = [];
+	bar[i] = function(){
+		return i };
+	console.log("i=" + i);
+	console.log("bar[i]=" + bar[i]);
+};
+
+console.log("-------");
+console.log("i=" + i);
+console.log("bar[i]=" + bar[i]);
+console.log("bar[2]=" + bar[2]);
+console.log(bar);
+
+
+	
